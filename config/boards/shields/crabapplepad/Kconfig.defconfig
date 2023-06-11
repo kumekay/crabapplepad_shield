@@ -1,0 +1,19 @@
+# SPDX-FileCopyrightText: 2023 Sergei Silnov
+# SPDX-License-Identifier: MIT
+
+if SHIELD_CRABAPPLEPAD_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "crabapplepad"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_CRABAPPLEPAD_LEFT || SHIELD_CRABAPPLEPAD_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

@@ -1,0 +1,4 @@
+// SPDX-FileCopyrightText: 2023 Sergei Silnov
+// SPDX-License-Identifier: MIT
+
+#include "crabapplepad.dtsi"

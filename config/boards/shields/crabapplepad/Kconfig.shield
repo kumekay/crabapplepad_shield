@@ -1,0 +1,8 @@
+# SPDX-FileCopyrightText: 2023 Sergei Silnov
+# SPDX-License-Identifier: MIT
+
+config SHIELD_CRABAPPLEPAD_LEFT
+    def_bool $(shields_list_contains,crabapplepad_left)
+
+config SHIELD_CRABAPPLEPAD_RIGHT
+    def_bool $(shields_list_contains,crabapplepad_right)

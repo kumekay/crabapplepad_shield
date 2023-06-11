@@ -1,0 +1,14 @@
+# SPDX-FileCopyrightText: 2023 Sergei Silnov
+# SPDX-License-Identifier: MIT
+
+file_format: "1"
+id: crabapplepad
+name: crabapplepad
+type: shield
+url: https://github.com/kumekay/crabapplepad_shield
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+siblings:
+  - crabapplepad_left
+  - crabapplepad_right
