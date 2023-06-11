@@ -14,4 +14,6 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: crabapplepad
+    shield: crabapplepad_left
+  - board: seeeduino_xiao_ble
+    shield: crabapplepad_right
