@@ -17,3 +17,5 @@ include:
     shield: crabapplepad_left
   - board: seeeduino_xiao_ble
     shield: crabapplepad_right
+  - board: nice_nano_v2
+    shield: crabapplepad_v2

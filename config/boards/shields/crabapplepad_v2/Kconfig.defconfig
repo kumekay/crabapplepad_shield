@@ -1,0 +1,10 @@
+# SPDX-FileCopyrightText: 2024 Sergei Silnov
+# SPDX-License-Identifier: MIT
+
+if SHIELD_CRABAPPLEPAD_V2
+
+config ZMK_KEYBOARD_NAME
+    default "crabapad"
+
+endif
+

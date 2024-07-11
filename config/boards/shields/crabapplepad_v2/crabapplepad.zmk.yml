@@ -1,0 +1,11 @@
+# SPDX-FileCopyrightText: 2024 Sergei Silnov
+# SPDX-License-Identifier: MIT
+
+file_format: "1"
+id: crabapplepad_v2
+name: crabapplepad_v2
+type: shield
+url: https://github.com/kumekay/crabapplepad_shield
+requires: [nice_nano_v2]
+features:
+  - keys
