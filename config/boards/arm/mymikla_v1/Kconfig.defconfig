@@ -1,0 +1,21 @@
+# Mymikla V1 keyboard configuration
+
+# Copyright (c) 2024 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if BOARD_MYMIKLA_V1
+
+config ZMK_KEYBOARD_NAME
+    default "Mymikla V1"
+
+if USB_DEVICE_STACK
+
+config USB_NRFX
+    default y
+
+endif # USB_DEVICE_STACK
+
+config BT_CTLR
+    default BT
+
+endif # BOARD_MYMIKLA_V1
