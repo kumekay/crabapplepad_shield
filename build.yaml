@@ -13,9 +13,11 @@
 #
 ---
 include:
-  - board: seeeduino_xiao_ble
-    shield: crabapplepad_left
-  - board: seeeduino_xiao_ble
-    shield: crabapplepad_right
-  - board: nice_nano_v2
-    shield: crabapplepad_v2
+  # TODO: uncomment
+  # - board: seeeduino_xiao_ble
+  #   shield: crabapplepad_left
+  # - board: seeeduino_xiao_ble
+  #   shield: crabapplepad_right
+  # - board: nice_nano_v2
+  #   shield: crabapplepad_v2
+  - board: mymikla_v1

@@ -1,0 +1,11 @@
+file_format: "1"
+id: mymikla_v1
+name: Mymikla v1
+type: board
+arch: arm
+features:
+  - keys
+outputs:
+  - usb
+  - ble
+url: https://github.com/kumekay/mymikla
